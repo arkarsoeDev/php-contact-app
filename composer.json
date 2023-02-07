@@ -1,0 +1,19 @@
+{
+    "name": "arkar/php-contact",
+    "description": "php test contact app",
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arkar Soe",
+            "email": "arkarsoedev@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20"
+    }
+}
